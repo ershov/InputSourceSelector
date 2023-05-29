@@ -5,13 +5,16 @@ This is a rewrite of [minoki/InputSourceSelector](https://github.com/minoki/Inpu
 in Swift with addition of a few useful features:
 testing for a layout ID and displaying the language code for the input method.
 
+For a more robust solution that works aroung MacOs errors, check out
+[laishulu/macism](https://github.com/laishulu/macism).
+
 ## Installing
 
 ```
 $ git clone https://github.com/ershov/InputSourceSelector.git
 $ cd InputSourceSelector
 $ make
-$ copy InputSourceSelector /usr/local/bin/ # or another directory in $PATH
+$ copy InputSourceSelector /usr/local/bin/    # or another directory in $PATH
 ```
 
 ## Usage
